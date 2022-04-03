@@ -1,0 +1,55 @@
+.navbar-collapse{
+	max-height: -moz-calc(100vh - 160px) !important;
+	max-height: -webkit-calc(100vh - 160px)!important;
+	max-height: calc(100vh - 160px)!important;
+}
+.minichat_frame {
+	height:calc(100vh - 60px);
+	max-height:100vh;
+	width:100%;
+	position: fixed;
+	z-index: 101;
+	right:0;
+	bottom:0;
+	visibility: hidden;
+	font-size: initial;
+	display:none;
+	/*
+	overflow-x: auto;
+	overflow-y: hidden;
+	*/
+}
+.minichat_frame1{
+	width:100%;
+	height:100%;
+	max-height:100%;
+	float:right;
+	background-color:#60b0f4;
+	visibility: visible;
+	border-radius: 9px;
+	display: inline-block;
+	position: relative;
+	top: 0;
+}
+.minichat-mesagelist{
+	border: 1px solid #60b0f4;
+	padding: 10px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	width:100%;
+	overflow-y:auto;
+	overflow-x:hidden;
+	height:calc(100% - 80px);
+	background-color:white;
+}
+.minichat-start-button{
+    display: inline-block;
+    position: fixed;
+    bottom: 25px;
+    right: 15px;
+    z-index: 200;
+}
+.minichat_count{
+	color:red;
+}

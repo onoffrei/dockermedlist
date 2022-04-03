@@ -1,0 +1,34 @@
+0 DONE	Modificare programari - momentan pot face programari pt pt ziua in curs si ora anterioara orei curente (la ora 18 pot face programari pt ora 8.00 a aceleiasi zile).
+1 		programari pacienti -> websocket - firebase 
+2 		toate tabelele  -> sortare si paginare?
+3 DONE	push notification
+5 		statistici (programari, vizite)
+6 		captcha pt adaugaspitale
+7 DONE	sitemap
+8 DONE	footer
+9 		google bussiness
+10 DONE	camp observatii la finalizare programare
+11 DONE	a ramas de facut un join la pagina programari-pacienti si nu se leaga id-specializare de denumirea specializarii si se afiseaza doar cifre
+12 DONE	la programari pacienti cred ca va trebui sa reinitializam nr de ordine de la 1 pt fiecare spacializare si pt fiecare zi.
+13 DONE cont pentru pacient? pt a vedea programarile acive/inactive?
+14 DONE	de adaugat butonul ACTIV/INACTIV-SUSPENDAT/STERS pt spitale.
+15 DONE pagina cautare, la deschiderea paginii afiseaza toate rezultele 
+16 DONE	daca vreau sa fac o programare si nu am cont, dau click pe  Nu aveti cont? - click aici si cand dau SUBMIt imi spune ca ceva nu a mers si ma redirectioneaza.
+17 DONE	NU functioneaza Descarca planificare goala.
+18 DONE	reseteaza parola nu merge
+19		anulare programare
+20 DONE Un checkbox pt a da voie managerului sa faca parte din personal? 
+21		La ore disponibile daca nu sunt -> NU SUNT ORE DISPONIBILE
+22 DONE	La capitolul "personal" ar trebui adus un buton de stergere doctor
+23 DONE	La pagina  spitalului: in loc de DOCTORI ar fi bine de pus personal medical - unii sunt dr altii kinetoterapeuti, altii chiropracticieni, osteopat ...nu sunt toti dr.
+24 DONE ordine in functie de utilizare a meniului (parerea mea)
+25 		mail de confirmare cont
+26		o harta cu localizarea am putea adauga sub adresa la spital
+27 DONE in pagina de 'profil doctor' afisare lista cu servicii oferite si costuri
+28		in pagina de 'pacienti programati' buton de adauga progamare
+29 DONE	o sa adaug optiunea selecteaza spital in meniul mobil
+30 		in pagina programdoc, pentru alegerea doctorului de utilizat fereastra in loc de select, pagina sa se deschida automat la primul dr din spital
+31		pacient -> sterge programare, doctor -> sterge programare/reprogrameaza
+32*		LISTA utilizatori - editare, stergere, blocare
+33*		email la activare/dezactivare, aprobare/dezaprobare
+

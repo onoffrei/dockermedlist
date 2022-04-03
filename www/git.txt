@@ -1,0 +1,28 @@
+
+upload
+
+89.34.92.176
+
+root
+
+u7lditt#Ez*9Tl 
+
+I1P8NTHfsckkAQnS - bd
+
+/var/www/html/po/
+
+cd /var/www/html/po/
+
+git pull --progress -v --no-rebase "origin"
+
+
+
+
+Target shortcut putty
+D:\download\putty.exe -ssh root@89.34.92.176 -pw u7lditt#Ez*9Tl
+
+
+
+
+
+tcpdump dst not 86.124.185.046 and not icmp and not port 53 and not arp and src not 86.124.185.046 -nn -v

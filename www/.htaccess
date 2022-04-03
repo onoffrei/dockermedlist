@@ -1,0 +1,34 @@
+RewriteEngine On
+Options -Indexes
+ExpiresActive On
+RewriteBase /
+
+
+
+
+
+
+
+
+
+
+Header unset ETag
+Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+Header set Pragma "no-cache"
+Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
+SetEnvIf Origin ^(http(s)?://(?:.+\.)?micutu\.ro(?::\d{1,5})?)$   CORS_ALLOW_ORIGIN=$1
+Header append Access-Control-Allow-Origin  %{CORS_ALLOW_ORIGIN}e   env=CORS_ALLOW_ORIGIN
+Header merge  Vary "Origin"
+Header set Access-Control-Allow-Credentials true
+Header set Access-Control-Allow-Methods "GET,POST,PUT,DELETE,OPTIONS"
+Header set Access-Control-Allow-Headers "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+
+RewriteCond %{REQUEST_URI} ^/csapi/(.*) [NC]
+RewriteRule ^(.*)$ _cs.php [L,QSA]
+
+
+
+
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}\.php -f 
+RewriteRule ^([^\.\/]+) $1.php [L,NC,QSA]

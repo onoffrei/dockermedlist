@@ -1,0 +1,6 @@
+Host: medlist.ro 
+Sitemap: https://medlist.ro/sitemaps/sitemapindex.xml
+User-agent: *
+Disallow: /browser/
+Disallow: /csapi/
+Allow: /
